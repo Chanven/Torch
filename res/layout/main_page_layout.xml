@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/light_switch_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_off"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/light_status_tv"
+        android:layout_width="150dip"
+        android:layout_height="130dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginBottom="60dip"
+        android:text="touch me"
+        android:textColor="#ffffff"
+        android:textSize="27dip"/>
+
+</RelativeLayout>
